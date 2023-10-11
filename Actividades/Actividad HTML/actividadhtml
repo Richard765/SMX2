@@ -1,0 +1,19 @@
+<HTML>
+<h1>Actividad HTML</h1>
+<p>En esta foto podemos ver a Will Smith, conocido por interpretar a Will Smith</p>
+<ol>
+    <li>El brikindans</li>
+    <li>El crusaito</li>
+    <li>El maiquelyason </li>
+    <li>El robocop </li>
+</ol>
+<br>
+<strong>Yo estoy en negrita.</strong>
+<em>Y yo estoy en cursiva.</em>
+<br>
+<img src="Will.jpg" alt="Aqui habia una foto, hasta que me denunciarion por derechos de autor"
+width="10%"
+height="20%">
+<br>
+<a href="https://es.wikipedia.org/wiki/Will_Smith">La gran historia de Will Smith</a>
+</HTML>
