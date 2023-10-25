@@ -13,10 +13,13 @@
 <body>
     <div class="estilo">
 <?php
-$op1 = $_GET['op1'];
-$op2 = $_GET['op2'];
-$operacion = $_GET['operacion'];
+$op1 = $_GET['op1']  ?? null;
+$op2 = $_GET['op2']  ?? null;
+$operacion = $_GET['operacion'] ?? null;
 
+if ($op1 === null || $op2 === null || $operacion === null) {
+echo "Hay variables sin colocar", "<br>", "(op1='X'&op2='Y'&operacion='Z') ";
+} else {
 if (is_numeric($op1) && is_numeric($op2)) {
 switch ($operacion) { 
 
@@ -50,6 +53,7 @@ break;
 }
 } else {
  echo "No se puede colocar letras/simbolos en una " ,$operacion;
+}
 }
 ?>
     </div>
