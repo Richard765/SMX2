@@ -1,0 +1,9 @@
+[Unit]
+Description=Mi Programa Infinito
+
+[Service]
+ExecStart=/usr/bin/python3 /ruta/a/mi_programa.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
